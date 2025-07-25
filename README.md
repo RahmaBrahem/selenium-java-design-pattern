@@ -1,1 +1,1 @@
-# selenium-java-projects
+# selenium-java-design-pattern
