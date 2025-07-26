@@ -1,0 +1,34 @@
+# Configuration du navigateur
+browser=chrome
+headless=false
+
+# Durées d'attente (en secondes)
+durationmin=3
+durationmoy=5
+durationmax=10
+
+# Format de date pour les rapports
+date=yy_MM_dd_HH_mm_ss
+
+# Détails du rapport
+DocumentTitle=Nom du rapport
+ReportName=Nom de la suite de tests
+
+# Emplacements pour les vidéos et screenshots (à adapter localement)
+VIDEO_LOCATION=/chemin/vers/dossier/videos
+SCREENSHOT_LOCATION=/chemin/vers/dossier/screenshots
+
+# Identifiants pour les tests
+usernameinvalid=utilisateur_faux
+passwordinvalid=mot_de_passe_faux
+usernamevalid=utilisateur_valide
+passwordvalid=mot_de_passe_valide
+usernameLockedUser=utilisateur_bloque
+passwordLockedPassword=mot_de_passe_bloque
+
+# Messages attendus
+errormsgLogin=Message d'erreur attendu
+validmsgLogin=Message de succès attendu
+
+# URL de l'application à tester
+url=https://www.exemple.com
