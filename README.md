@@ -52,14 +52,13 @@ L’organisation du code suit une architecture modulaire clairement séparée pa
 - **Maven**
 - **WebDriverManager**
 - **ExtentReports**
-- Properties File pour la configuration
+- Fichier .properties pour la configuration
 
 ## 🔍 Page Object Model (POM)
 
 Le projet utilise le modèle **Page Object Model (POM)** pour structurer le code de test de manière claire et réutilisable.
 
 Chaque classe dans le package `com.pages` représente une page de l’application et contient :
-
 - Les localisateurs des éléments UI  
 - Les méthodes d’interaction avec ces éléments  
 - Une interface simple à utiliser dans les cas de test
@@ -72,31 +71,12 @@ Le fichier `data.properties` contient toutes les données de configuration néce
 
 ### 🛠️ Pour configurer le projet localement :
 
-1. **Créer** le dossier `dataConfig` dans `src/test/resources/`
-
-2. **Copier** le fichier `properties-example.txt` dans ce dossier
-
-3. **Renommez**-le en `data.properties`
-
-4. **Modifiez son contenu** avec vos propres données : `url`, `usernamevalid`, `passwordvalid`, `errormsgLogin`, etc. 
-
-✅ Ce fichier est lu par la classe `ConfigReader`, qui charge les propriétés et les rend accessibles aux classes de test via des méthodes dédiées.
-
-## ⚙️ Configuration
-
-Le fichier `data.properties` contient toutes les données de configuration nécessaires au projet : URL, identifiants, messages, options navigateur, etc.  
-🔒 Ce fichier est **ignoré** par Git (via `.gitignore`) pour ne pas exposer d’informations sensibles.  
-📁 Un **exemple de configuration** est fourni ici : [`src/test/resources/dataConfig/properties-example.txt`](src/test/resources/dataConfig/properties-example.txt)
-
-### 🛠️ Pour configurer le projet localement :
-
 1. **Créer** le dossier `dataConfig` dans `src/test/resources/` (s’il n’existe pas déjà)  
 2. **Copier** le fichier `properties-example.txt` dans ce dossier  
 3. **Renommer** ce fichier en `data.properties`  
 4. **Modifier** son contenu avec vos propres données : `url`, `usernamevalid`, `passwordvalid`, `errormsgLogin`, etc.  
 
 ✅ Ce fichier est lu par la classe `ConfigReader`, qui charge les propriétés et les rend accessibles aux classes de test via des méthodes dédiées.
-
 
 ## ▶️ Exécution des Tests
 
@@ -134,7 +114,7 @@ Le format de date/heure est défini dans `data.properties` (ex: `yy_MM_dd_HH_mm_
 * Séparation claire des responsabilités (SRP)
 * Design Patterns appliqués
 * Données de test externalisées
-* Utilisation de Assertions (TestNG)
+* Utilisation des assertions (TestNG)
 * Rapports lisibles
 * Tests réutilisables
 * Tests faciles à maintenir
