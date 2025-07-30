@@ -82,6 +82,22 @@ Le fichier `data.properties` contient toutes les données de configuration néce
 
 ✅ Ce fichier est lu par la classe `ConfigReader`, qui charge les propriétés et les rend accessibles aux classes de test via des méthodes dédiées.
 
+## ⚙️ Configuration
+
+Le fichier `data.properties` contient toutes les données de configuration nécessaires au projet : URL, identifiants, messages, options navigateur, etc.  
+🔒 Ce fichier est **ignoré** par Git (via `.gitignore`) pour ne pas exposer d’informations sensibles.  
+📁 Un **exemple de configuration** est fourni ici : [`src/test/resources/dataConfig/properties-example.txt`](src/test/resources/dataConfig/properties-example.txt)
+
+### 🛠️ Pour configurer le projet localement :
+
+1. **Créer** le dossier `dataConfig` dans `src/test/resources/` (s’il n’existe pas déjà)  
+2. **Copier** le fichier `properties-example.txt` dans ce dossier  
+3. **Renommer** ce fichier en `data.properties`  
+4. **Modifier** son contenu avec vos propres données : `url`, `usernamevalid`, `passwordvalid`, `errormsgLogin`, etc.  
+
+✅ Ce fichier est lu par la classe `ConfigReader`, qui charge les propriétés et les rend accessibles aux classes de test via des méthodes dédiées.
+
+
 ## ▶️ Exécution des Tests
 
 ### Avec Maven (ligne de commande) :
