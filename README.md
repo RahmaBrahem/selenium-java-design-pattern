@@ -137,7 +137,7 @@ Voici quelques pistes d’amélioration pour les prochaines versions :
   <strong>Rahma Brahem</strong><br>
   <em>QA Engineer | Passionnée par l'automatisation</em><br>
   📎 <a href="https://github.com/RahmaBrahem">GitHub</a> &nbsp;|&nbsp;
-  <a href="https://www.linkedin.com/in/rahma-brahem">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/rahmabrahemqa">LinkedIn</a> 
 
 ## 📜 Licence
 
