@@ -1,0 +1,29 @@
+# === Java compilés ===
+*.class
+
+# === Maven ===
+/target/
+
+# === TestNG output ===
+/test-output/
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+
+# === IntelliJ (au cas où) ===
+.idea/
+*.iml
+
+# === Fichiers sensibles de config ===
+*.properties
+!properties-example.txt
+
+# === Fichiers temporaires / logs ===
+*.log
+*.tmp
+
+# === Fichiers système ===
+.DS_Store
+Thumbs.db

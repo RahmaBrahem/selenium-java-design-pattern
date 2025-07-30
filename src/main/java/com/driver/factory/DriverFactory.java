@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2025 Rahma Brahem
+ * 
+ * Licensed under the MIT License.
+ * See the LICENSE file in the project root for license information.
+ */
 package com.driver.factory;
 
 import java.util.Arrays;
