@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Version-1.0-blue?logoColor=rgb(0%2C%200%2C%20255)&label=Version" />
 </p>
 
 Ce projet est un framework d'automatisation de tests UI développé en Java avec Selenium WebDriver et TestNG. Il adopte une architecture claire, modulaire et maintenable, en s'appuyant notamment sur le modèle Page Object (POM) pour structurer les interactions avec l'interface utilisateur.
