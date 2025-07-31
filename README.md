@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" />
   <img src="https://img.shields.io/badge/TestNG-F2A100?style=for-the-badge&logo=testng&logoColor=white" />
   <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" />
+  <img src="https://img.shields.io/badge/ExtentReports-blueviolet?style=for-the-badge&logo=report&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/Version-1.0-blue?logoColor=rgb(0%2C%200%2C%20255)&label=Version" />
